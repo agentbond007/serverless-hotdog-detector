@@ -75,6 +75,6 @@ Resources:
 
 Outputs:
   RequestURL:
-    Description: Prod URL for API to use as Request URL for Slack app
+    Description: Prod URL for API to use as Request URL for Slack app PUBLIC
     Value: !Sub |-
        https://${HotdogDetectorAPI}.execute-api.${AWS::Region}.amazonaws.com/Prod/
